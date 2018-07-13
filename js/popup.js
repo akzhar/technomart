@@ -5,7 +5,7 @@ var btnClose3 = notify.querySelector(".modal-close2");
 
 for (var btnOpen2 of btnOpen2_list) {
   btnOpen2.addEventListener("click", function(evt) {
-  evt.preventDefault();
+  // evt.preventDefault();
   notify.classList.toggle("modal-show");
 });
 }
